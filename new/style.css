@@ -30,3 +30,10 @@ button {
     border: none;
     cursor: pointer;
 }
+/* Estilos para la imagen redonda */
+.rounded-image {
+    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    height: 200px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor sin deformarse */
+}
